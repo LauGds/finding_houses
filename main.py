@@ -5,8 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import time
 
-DOCS_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdRm5qD9cc10hh5OGsl2ymJSzfrUzE990dV9Tei6Z3K7JtaMg/viewform?" \
-           "usp=sf_link"
+DOCS_URL = "https://docs.google.com/PATH"
 
 ZILLOW_URL = "https://www.zillow.com/seattle-wa/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22mapBounds%22%3A%" \
              "7B%22north%22%3A47.698110117609986%2C%22east%22%3A-122.03800011616765%2C%22south%22%3A47.5068978020092" \
