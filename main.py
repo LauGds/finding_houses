@@ -21,11 +21,7 @@ driver = webdriver.Chrome(service=SERVICE)
 driver.get(DOCS_URL)
 time.sleep(3)
 
-#Getting all properties
-# scroll = driver.find_element(By.XPATH, '//*[@class="srp-page-container"]')
-# for i in range(10):
-#     driver.execute_script(f"arguments[0].scrollTop = {i*1000}", scroll)
-#     time.sleep(1)
+
 
 response = requests.get(ZILLOW_URL, headers=headers)
 soup = BeautifulSoup(response.text, "html.parser")
