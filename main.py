@@ -21,8 +21,6 @@ driver = webdriver.Chrome(service=SERVICE)
 driver.get(DOCS_URL)
 time.sleep(3)
 
-
-
 response = requests.get(ZILLOW_URL, headers=headers)
 soup = BeautifulSoup(response.text, "html.parser")
 all_links = soup.find_all(name="a", class_="property-card-link")
