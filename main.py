@@ -7,15 +7,7 @@ import time
 
 DOCS_URL = "https://docs.google.com/PATH"
 
-ZILLOW_URL = "https://www.zillow.com/seattle-wa/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22mapBounds%22%3A%" \
-             "7B%22north%22%3A47.698110117609986%2C%22east%22%3A-122.03800011616765%2C%22south%22%3A47.5068978020092" \
-             "2%2C%22west%22%3A-122.43968773823796%7D%2C%22mapZoom%22%3A12%2C%22regionSelection%22%3A%5B%7B%22region" \
-             "Id%22%3A16037%2C%22regionType%22%3A6%7D%2C%7B%22regionId%22%3A3619%2C%22regionType%22%3A6%7D%5D%2C%22i" \
-             "sMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A600000%2C%22min%22%3A300000" \
-             "%7D%2C%22beds%22%3A%7B%22min%22%3A2%7D%2C%22baths%22%3A%7B%22min%22%3A1%7D%2C%22apa%22%3A%7B%22value%22" \
-             "%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A3086%2C%22min%22%3A1543%" \
-             "7D%2C%22sort%22%3A%7B%22value%22%3A%22days%22%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22tow%22%3" \
-             "A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+ZILLOW_URL = "https://www.zillow.com/PATH"
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/"
