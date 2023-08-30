@@ -14,7 +14,7 @@ headers = {
                   "114.0.0.0 Safari/537.36",
     "Accept-Language": "en-US,en;q=0.9,es;q=0.8"
 }
-CHROME_DRIVER_PATH = r"D:\Documents\Laura\100_days_coding\chromedriver_win32\chromedriver.exe"
+CHROME_DRIVER_PATH = r"PATH\chromedriver.exe"
 SERVICE = Service(CHROME_DRIVER_PATH)
 
 driver = webdriver.Chrome(service=SERVICE)
